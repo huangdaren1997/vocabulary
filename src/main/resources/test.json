@@ -1,0 +1,65 @@
+{
+  "timestamp": 1554815615868,
+  "words": [
+    {
+      "text": "omitted",
+      "context": "If the @Profile annotation is omitted, registration will occur regardless of which (if any) profiles are active.",
+      "title": "Profile (Spring Framework 5.1.6.RELEASE API)",
+      "url": "https://docs.spring.io/spring-framework/docs/current/javadoc-api/org/springframework/context/annotation/Profile.html",
+      "favicon": "https://docs.spring.io/favicon.ico",
+      "trans": "如果省略@Profile注释，则无论哪个（如果有）配置文件处于活动状态，都将进行注册。",
+      "note": "1.VERB 省略；删节；排除；遗漏\nOur apologies to David Pannick for omitting his name from last week's article.\n我们在上周的文章里漏掉了戴维·潘尼克的名字，特此向他致歉。\n------------------------------------------------------------------------------------\n2.VERB 未（做）；没有（做）\nHis new girlfriend had omitted to tell him she was married.\n他的新女友未把自己已婚的事实告诉他。",
+      "date": 1554798340344
+    },
+    {
+      "text": "Transmitter",
+      "context": "",
+      "title": "发送器 英文 - Google Search",
+      "url": "https://www.google.com/search?ei=ZC2sXK6VLu2N_QawmLj4Ag&q=%E5%8F%91%E9%80%81%E5%99%A8+%E8%8B%B1%E6%96%87&oq=%E5%8F%91%E9%80%81%E5%99%A8+%E8%8B%B1%E6%96%87&gs_l=psy-ab.3..0i13i30.12929.16779..16936...2.0..0.385.5772.3-16......0....1..gws-wiz.....6..0i71j35i39j0i131i67j0i67j0j0i131j0i10j0i10i67j0i7i30j0i203j0i30j0i5i30j0i4i30.IDaZQTulLZQ",
+      "favicon": "",
+      "trans": "n.（尤指电台或电视信号的）发射机；传送者；传输者；传播者\n网络:发射器；变送器；发送器",
+      "note": "A transmitter is a piece of equipment that is used for broadcasting television or radio programmes.",
+      "date": 1554787727713
+    },
+    {
+      "text": "outcomes",
+      "context": "",
+      "title": "Authoring Tasks",
+      "url": "https://docs.gradle.org/current/userguide/more_about_tasks.html",
+      "favicon": "https://docs.gradle.org/favicon.ico",
+      "trans": "a result or effect of an action, situation, etc.\nn.结果；成果；后果；〈比喻〉出路",
+      "note": "It's too early to know the outcome of her illness.",
+      "date": 1554772202095
+    },
+    {
+      "text": "Authoring",
+      "context": "Authoring Tasks",
+      "title": "Authoring Tasks",
+      "url": "https://docs.gradle.org/current/userguide/more_about_tasks.html",
+      "favicon": "https://docs.gradle.org/favicon.ico",
+      "trans": "创建（尤指因特网文档的）",
+      "note": "Authoring is the creation of documents, especially for the Internet.",
+      "date": 1554771984941
+    },
+    {
+      "text": "material",
+      "context": "Before you dive into the material, you should be familiar with various Programming/Software Design Principles.",
+      "title": "iluwatar/java-design-patterns: Design patterns implemented in Java",
+      "url": "https://github.com/iluwatar/java-design-patterns",
+      "favicon": "https://github.githubassets.com/favicon.ico",
+      "trans": "在深入研究材料之前，您应该熟悉各种编程/软件设计原则。",
+      "note": "",
+      "date": 1554738238774
+    },
+    {
+      "text": "components",
+      "context": "While the components actually execute the logic, the SecurityManager implementation knows how and when to coordinate the components for the correct behavior.",
+      "title": "Apache Shiro | Simple. Java. Security.",
+      "url": "http://shiro.apache.org/architecture.html",
+      "favicon": "http://shiro.apache.org/assets/images/favicon.ico",
+      "trans": "google: 当组件实际执行逻辑时，SecurityManager实现知道如何以及何时协调组件以获得正确的行为。\nsogou: 当组件实际执行逻辑时，安全管理器实现知道如何以及何时协调组件以实现正确的行为。\nbaidu: 当组件实际执行逻辑时，SecurityManager实现知道如何和何时协调组件以实现正确的行为。",
+      "note": "",
+      "date": 1554599660480
+    }
+  ]
+}
