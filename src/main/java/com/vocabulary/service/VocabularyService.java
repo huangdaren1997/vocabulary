@@ -3,6 +3,8 @@ package com.vocabulary.service;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.github.sardine.Sardine;
 import com.github.sardine.SardineFactory;
+import com.vocabulary.io.EudictUploader;
+import com.vocabulary.io.SaladictHunter;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.stereotype.Service;
@@ -34,8 +36,11 @@ public class VocabularyService {
 
 	}
 
-	public void updateEudict() {
-
+	public boolean updateEudict(String username, String password) {
+		SaladictHunter hunter = new SaladictHunter();
+		EudictUploader uploader = new EudictUploader();
+		List<String> words = hunter.getWordsFromNuts(username, password);
+		return uploader.upload(words);
 	}
 
 }

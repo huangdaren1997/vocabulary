@@ -19,18 +19,27 @@ public class VocabularyController {
 	private VocabularyService vocabularyService;
 
 	@GetMapping
-	public String updateEudict() {
-		return null;
-	}
-
-	@GetMapping("words")
-	public ModelAndView listVocabulary(ModelAndView mv) throws IOException {
+	public ModelAndView updateEudict(ModelAndView mv) {
 		String username = "huangdaren1997@gmail.com";
 		String password = "a23s74hb5gjtpi3p";
-		List words = vocabularyService.listVocabulary(username, password);
-		mv.addObject("words", words);
+		boolean success = vocabularyService.updateEudict(username, password);
 		mv.setViewName("index");
+		if (success) {
+			mv.addObject("msg", "成功更新单词");
+		} else {
+			mv.addObject("msg", "更新单词失败");
+		}
 		return mv;
 	}
+
+//	@GetMapping("words")
+//	public ModelAndView listVocabulary(ModelAndView mv) throws IOException {
+//		String username = "huangdaren1997@gmail.com";
+//		String password = "a23s74hb5gjtpi3p";
+//		List words = vocabularyService.listVocabulary(username, password);
+//		mv.addObject("words", words);
+//		mv.setViewName("index");
+//		return mv;
+//	}
 
 }

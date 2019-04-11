@@ -5,6 +5,6 @@ import java.util.List;
 /**
  * @author Huang Da Ren
  */
-public interface VocabularyHunter {
-
+public interface VocabularyUploader {
+	boolean upload(List<String> words);
 }
